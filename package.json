@@ -1,7 +1,7 @@
 {
   "name": "@carlhopf/reduxjs-toolkit",
   "private": true,
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "webpack re-packaged @reduxjs/toolkit",
   "main": "index.js",
   "type": "commonjs",
@@ -11,8 +11,10 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.7.2"
+  },
   "devDependencies": {
-    "@reduxjs/toolkit": "^1.7.2",
     "fs-extra": "^10.0.0",
     "mkdirp": "^1.0.4",
     "webpack": "^5.68.0",
