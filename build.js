@@ -14,8 +14,11 @@ webpack(
       filename: 'index.js',
       path: __dirname + '/bin',
       library: {
-        type: 'commonjs2',
+        type: 'commonjs-module',
       },
+    },
+    optimization: {
+        minimize: false
     },
   },
   (err) => {
