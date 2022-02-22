@@ -15,6 +15,7 @@ webpack(
       path: __dirname + '/bin',
       library: {
         type: 'commonjs-module',
+        export: ['default']
       },
     },
     optimization: {
